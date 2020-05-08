@@ -1,0 +1,1 @@
+# easy_bin_magento
