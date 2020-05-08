@@ -52,15 +52,15 @@ If you want to use this tool in different projects, just add it to `/usr/local/b
 sudo cp ./m2 /usr/local/bin/
 ```
 
-## Customisation
+## Customization
 
 You can easily customise this tool, by changing file `m2`. 
 
 For example, you want to add shortcut `m2 5` that will execute command `php bin/magento module:status`
 
-Steps:
+#### Steps:
 - Open file `m2`
-- add new statement to the end of last `ELIF` structure
+- add new statement to the end of the last `ELIF` structure
 
 ```sh
 ...
@@ -76,4 +76,4 @@ fi
 ...
 ```
 
-If you have any qustions, just write me [here](https://www.linkedin.com/in/bbakalov/) or [create an issue](https://github.com/bbakalov/easy_bin_magento/issues)
+:beetle::interrobang: If you have any qustions or found any bug, just write to me [here](https://www.linkedin.com/in/bbakalov/) or [create an issue](https://github.com/bbakalov/easy_bin_magento/issues)
