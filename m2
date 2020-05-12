@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# don't forget to click "star" in github https://github.com/bbakalov/easy_bin_magento
 
 if [ "$1" == "-h" ] || [ "$1" == "h" ] || [ "$1" == "-help" ] || [ "$1" == "--help" ]; then
     GREEN='\033[0;32m'
